@@ -1,1 +1,148 @@
+body {
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
 
+  display: flex;
+  flex-direction: column;
+}
+
+.kontainer-navbar {
+  max-width: 10cm;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.kontainer-nav ul {
+  padding-left: 220px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.kontainer-nav li {
+  list-style: none;
+}
+
+.kontainer-nav li a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 300;
+  color: black;
+  padding: 20px 30px;
+  border-radius: 0 25% 0 45%;
+  transition: all 0.5s ease-in-out;
+}
+
+.kontainer-nav li:hover a {
+  background-color: #ff0033;
+  color: #eaeaea;
+}
+
+.main-konten {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+.isi-main {
+  flex: 1 1;
+}
+.isi-main img{
+  display: flex;
+  width: 200px;
+  margin-left: 13cm;
+}
+.judul {
+  font-size: xx-large;
+  margin-block: 10px;
+}
+
+.main-konten p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.link-UPI {
+  padding: 10px;
+  margin-block-start: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  border: 5px solid transparent;
+  border-radius: 1200px;
+  background-color: #d80032;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.link-UPI:hover {
+  border: solid #f78ca2;
+  color: #f78ca2;
+  background-color: transparent;
+}
+
+.artikel-konten {
+  margin-top: -20px;
+  margin-left: 80px;
+  width: 80%;
+}
+
+.isi-artikel {
+  color: #f78ca2;
+}
+.isi-artikel p {
+  font-size: medium;
+}
+
+.sosmed {
+  height: 100%;
+  display: flex;
+}
+
+.sosmed ul {
+  padding: 1.5rem 1rem;
+  margin: -11cm 10px auto auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #d80032;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.sosmed li {
+  list-style: none;
+}
+
+.sosmed li a {
+  text-decoration: none;
+  font-size: large;
+  color: wheat;
+  transition: all 0.3s ease-in-out;
+}
+
+.sosmed li a img {
+  width: 50px;
+  height: 50px;
+}
+
+.sosmed li a:hover {
+  color: #f78ca2;
+}
